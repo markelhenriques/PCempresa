@@ -8,7 +8,7 @@
         "aside section section"
         "footer footer footer";
     gap: 5px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roarboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image:url(../Imagenes/1920x1080-Fondo-de-pantalla-negro-mate-1920x1080-PX.jpg);
     margin:0%;
     padding:0%;
@@ -133,7 +133,8 @@ a {
 .submenu {
     background-color: #4c4c48;
     max-height: 0;
-    transition:0.5s ;
+    transition:0.5s;
+    text-align: left;
 }
 @media (min-width:768px) {
     .submenu a{
@@ -275,8 +276,7 @@ section{
     border-top:none
    }
    
-   /*Comprar*/
-   
+   /*Produktu-zutabeen egitura*/
    .precio-col-comprar {
     padding:10px;
     max-width:250px;
@@ -287,7 +287,6 @@ section{
     border: 2px solid #333;
     transition: all 0.3s
    }
-   
    .precio-col-comprar a {
     color:#f3f3f3;
     padding:10px;
@@ -295,12 +294,10 @@ section{
     text-transform:uppercase;
     transition: all 0.3s
    }
-   
    .precio-col-comprar:hover {
     background-color:#f3f3f3;
     transition: all 0.3s
    }
-   
    .precio-col-comprar:hover a {
     color:#333;
     transition: all 0.3s
@@ -322,14 +319,14 @@ footer{
 
 /* HASI SAIOA */
 
-/* Hautagailu unibertsala zabalera zehazteko */
+/* (HASI SAIOA) Hautagailu unibertsala zabalera zehazteko */
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-/* Body guztian arial letra mota eta argazki bat fondo bezala */
+/* (HASI SAIOA) Body guztian arial letra mota eta argazki bat fondo bezala */
 .hasisaioa{
     background-image: url(../Imagenes/wallpaperbetter.webp);
     font-family: arial;
@@ -337,7 +334,7 @@ footer{
     padding: 0%;
     box-sizing: border-box;
 }
-/* Formularioa eta kutxaren sorkuntza */
+/* (HASI SAIOA) Formularioa eta kutxaren sorkuntza */
 .formularioaH {
   width: 400px;
   height: 340px;
@@ -350,7 +347,7 @@ footer{
   color: white;
 }
 
-/* Formularioan tituluaren estiloa aldatzeko */
+/* (HASI SAIOA) Formularioan tituluaren estiloa aldatzeko */
 .formularioaH h5 {
     margin: 0%;
     text-align: center;
@@ -360,7 +357,7 @@ footer{
     font-size: 20px;
 }
 
-/* Idazteko espazioak konfiguratzeko */
+/* (HASI SAIOA) Idazteko espazioak konfiguratzeko */
 .control {
     width: 100%;
     border: 1px solid #dd9933;
@@ -372,7 +369,7 @@ footer{
     color: white;
 }
 
-/* Botoiaren itxura */
+/* (HASI SAIOA) Botoiaren itxura */
 .botoia {
     width: 100%;
     height: 40px;
@@ -383,7 +380,7 @@ footer{
     font-weight: bold;
 }
 
-/* "Ez dut pasahitza gogoratzen" itxura aldatzeko */
+/* (HASI SAIOA) "Ez dut pasahitza gogoratzen" itxura aldatzeko */
 .formularioaH p {
     height: 40px;
     text-align: center;
@@ -404,6 +401,7 @@ footer{
     font-family: arial;
 }
 
+/* (ERREGISTROA) Formularioa eta kutxaren sorkuntza */
 .formularioaE {
   width: 400px;
   height: 540px;
@@ -416,6 +414,7 @@ footer{
   color: white;
 }
 
+/* (ERREGISTROA) Formularioan tituluaren estiloa aldatzeko */
 .formularioaE h5 {
     margin: 0%;
     text-align: center;
@@ -425,6 +424,7 @@ footer{
     font-size: 20px;
 }
 
+/* (ERREGISTROA) Idazteko espazioak konfiguratzeko */
 .control {
     width: 100%;
     border: 1px solid #dd9933;
@@ -436,6 +436,7 @@ footer{
     color: white;
 }
 
+/* (ERREGISTROA) Botoiaren itxura */
 .botoia {
     width: 100%;
     height: 40px;
@@ -446,18 +447,17 @@ footer{
     font-weight: bold;
 }
 
+/* (ERREGISTROA) "Ez dut pasahitza gogoratzen" itxura aldatzeko */
 .formularioaE p {
     height: 40px;
     text-align: center;
     border-bottom: 1px solid;
 }
-
 .formularioaE a {
     color: white;
     text-decoration: none;
     font-size: 14px;
 }
-
 .formularioaE a:hover {
     text-decoration: underline;
 }
