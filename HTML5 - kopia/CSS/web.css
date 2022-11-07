@@ -1,6 +1,4 @@
-
-
-.principal{
+principal{
     display: grid;
     grid-template-areas: 
         "header header header"
@@ -8,26 +6,17 @@
         "aside section section"
         "footer footer footer";
     gap: 5px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Nunito; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    background-image: url(/Imagenes/1920x1080-Fondo-de-pantalla-negro-mate-1920x1080-PX.jpg);
     margin:0%;
     padding:0%;
-}
-
-.fondopantalla {
-    position:fixed ;
-    right: 0%;
-    bottom: 0;
-    min-width: 105%;
-    min-height: 105%;
-    transform: translateX(calc((100% - 100vw) / 2));
-    z-index: -10;
 }
 
 /*Header*/
 
 header{
     grid-area:header;
-    display: flex;
+    display: flex;  /*flexiblea dela esan nahi du*/
     height: 100%;
     width: 100%;
     background-color: #dd9933;
@@ -61,7 +50,7 @@ nav a:hover{
     color:white;
 }
 
-@media (max-width:700px){
+@media (max-width:700px){  /*asoziati egiten du talde bat deklarazio anidatuekin*/
     header{
         flex-direction: column;
     }
@@ -74,7 +63,7 @@ html {
     box-sizing: border-box;
 }
   *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: inherit; /*hartzen du bere elementu aitaren baloreak*/
 }
 
 /* letra mota aldatzen dugu  */
@@ -119,7 +108,7 @@ a {
 }
 
 .enlace{
-    overflow: hidden;
+    overflow: hidden;  /*overflow mostu egiten da eta beste gaiak izkutatzen dira*/
 }
 
 .enlace:target .submenu{
@@ -141,7 +130,7 @@ a {
 .submenu {
     background-color: #4c4c48;
     max-height: 0;
-    transition:0.5s ;
+    transition:0.5s ; /*zenbat denboratan desplegatuko da*/
 }
 @media (min-width:768px) {
     .submenu a{
@@ -167,7 +156,7 @@ aside{
 }
 aside li{
     list-style-type:none;
-    position:relative;
+    position:relative; /*bere pozozio normalean dagoela*/
     width: 120px;
     }
                 
@@ -228,7 +217,7 @@ section{
    @media screen and (min-width:768px) {
     .precio-col {
     width:32%;
-    float:left;
+    float:left; /*elementuak jartzen ditu flotatzen ari direla bezala*/
     margin-right:2%
     }
     
@@ -265,7 +254,7 @@ section{
     margin-bottom:0
    }
    
-   /*Características*/
+   /*CaracterÃ­sticas*/
    
    .precio-col-features {
     padding: 0 20px 20px 20px
@@ -292,15 +281,15 @@ section{
     background-color:rgb(3, 3, 3);
     margin: 0 auto 20px;
     border-radius:10px;
-    border: 2px solid rgb(255, 255, 255);
-    transition: all 0.3s
+    border: 2px solid rgb(255, 255, 255)
+    transition all 0.3s
    }
    
    .precio-col-comprar a {
     color:#c38330;
     padding:10px;
     font-size:20px;
-    text-transform:uppercase;
+    text-transform:uppercase; /* letra larriak jartzen ditu*/
     transition: all 0.3s
    }
    
@@ -337,7 +326,7 @@ section{
     bottom: 0;
     min-width: 105%;
     min-height: 105%;
-    transform: translateX(calc((100% - 100vw) / 2));
+    transform: translateX(calc((100% - 100vw) / 2));  /*birposizionatu egiten du horizontalki 2D plano batean*/
     z-index: -10;
 }
 * {
@@ -419,6 +408,7 @@ section{
 
 /* ERREGISTROA */
 
+/* mgitzen den fondo bat jartzeko */
 .fondobideoerregistratu {
     position:fixed ;
     right: 0%;
@@ -566,4 +556,3 @@ section{
 .formularioaA a:hover {
     text-decoration: underline;
 }
-
