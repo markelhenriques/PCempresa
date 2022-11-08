@@ -1,4 +1,4 @@
-principal{
+.principal{
     display: grid;
     grid-template-areas: 
         "header header header"
