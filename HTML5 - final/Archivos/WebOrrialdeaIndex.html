@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta name="author" content="PCenpresa">
+    <meta name="description" content="PCweb">
+    <meta name="keywords" content="html, css">
+    <link rel="stylesheet" type="text/css" href="../CSS/web.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--fav icon jartzeko kodea, fav icon da web orrialdearen gainean ikusten den ikono txikia-->
+    <link rel="shortcut icon" href="../Imagenes/2.png">
+    <!--link hau lehenetsitako estiloak berrabiarazteko da-->
+    <title>@PC</title>
+</head>
+
+<body class="principal">
+    <img class="fondopantalla" src="../Imagenes/1920x1080-Fondo-de-pantalla-negro-mate-1920x1080-PX.jpg" alt="fondodepantalla">
+    <header>
+        <!--Css-tik aldatzeko div etiketa hau, orregaitik jartzen diozu izen bat gero izen hori jarriko duzu css-an -->
+        <div class="logo">
+            <img src="../Imagenes/2.png" alt="enpresako logoa">
+            <h1 class="enpresako izena" style="color:white">@PC</h1>
+        </div>
+         <!--Nabigazio barra desplegableekin sortzeko-->
+    <nav class="barra">
+        <ul class="navegacion">
+            <li class="enlace" id="perfil">
+                <a href="#perfil" id="padre">
+                <i>Nire profila</i>
+                </a>
+    <!--class CSS barruan editatzeko balio du-->
+                <div class="submenu">
+    <!-- hau (perfil) barruan sartuko da-->
+                    <a href="../Archivos/hasisaioa.html">Hasi saioa</a>
+                    <a href="../Archivos/erregistratu.html">Erregistratu</a>
+
+                </div>
+            </li>
+
+            <li class="enlace" id="mensajes">
+                <a href="#mensajes" id="Padre">
+                    <i>Kontaktua</i>
+                </a>
+                <div class="submenu">
+                    <a href="#">Nortzuk gara</a>
+                    <a href="#">Non lan egiten dugu</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <aside>
+        <!--Honekin egingo dugu lista bat desplegatzen dena-->
+        <ul>
+            <li><a href="../Archivos/Ordenagailuak.html">Ordenagailuak</a></li>
+            <li><a href="../Archivos/Pantailak.html">Pantailak</a></li>
+            <li><a href="../Archivos/Mooding.html">Modding</a></li>
+            <li><a href="../Archivos/periferikoak.html">Periferikoak</a><ul>
+            <li><a href="../Archivos/Arratoiak.html">Arratoiak</a></li>
+            <li><a href="../Archivos/teclados.html">Teklatuak</a></li>
+            </ul></li>
+            <li><a href="../Archivos/Erreparazioak.html">Erreparazioak</a></li>
+        </ul>
+</aside>
+<section>
+    <br>
+    <h2 style="color: white;">TOP SALMENTAK!</h2>
+    <div id="topsalmentak">
+    <!--peoduktu bakoitzaren kutxak-->
+        <div class="precio-col">
+         <div class="precio-col-header">
+         <img src="../Imagenes/portatiltop.png"  width="200" height="200" alt="portatil">
+         <p style="color:black;">Alurin Go Intel Pentium N4200/8GB/128GB SSD/nOS/14.1"</p>
+         </div>
+        
+         <!--peoduktua izango duen prezioa-->
+        <div class="precio-col-features">
+        <p style="color:black;"><b>249,90€</b></p>
+         </div>
+        
+         <!--produktua erosi botoia klikatzerakoan ermango digun linkara-->
+        <div class="precio-col-comprar">
+         <a href=https://www.pccomponentes.com/alurin-go-intel-pentium-n4200-8gb-128gb-ssd-nos-141>Erosi</a>
+         </div>
+         </div>
+        <!--peoduktu bakoitzaren kutxak-->
+        <div class="precio-col">
+         <div class="precio-col-header">
+         <img src="../Imagenes/pctop.png"  width="200" height="200" alt="ORDENAGAILUAK">
+         <p style="color:black;">PcCom Bronze AMD Ryzen 5 5600G/16GB/500GB SSD</p>
+         </div>
+        <!--peoduktua izango duen prezioa-->
+        <div class="precio-col-features">
+         <p style="color:black"><b>863,53€</b></p>
+         </div>
+         <!--produktua erosi botoia klikatzerakoan ermango digun linkara-->
+        <div class="precio-col-comprar">
+         <a href=https://www.pccomponentes.com/pccom-bronze-amd-ryzen-5-5600g-16gb-500gb-ssd>Erosi</a>
+         </div>
+         </div>
+        <!--peoduktu bakoitzaren kutxak-->
+        <div class="precio-col">
+         <div class="precio-col-header">
+         <img src="../Imagenes/pantailatop.png"  width="200" height="200" alt="Monitore" >
+         <p style="color:black;">Asus TUF Gaming VG27AQ1A 27" LED IPS WQHD 170Hz G-Sync Compatible</p>
+         </div>
+        <!--peoduktua izango duen prezioa-->
+        <div class="precio-col-features">
+        <p style="color:black;"><b>393€</b></p>
+         </div>
+         <!--produktua erosi botoia klikatzerakoan ermango digun linkara-->
+        <div class="precio-col-comprar">
+         <a href="https://www.pccomponentes.com/asus-tuf-gaming-vg27aq1a-27-led-ips-wqhd-170hz-g-sync-compatible">Erosi</a>
+         </div>
+         </div>
+        
+        </div>
+</section>
+<footer>
+    <address>
+         <!--sare sozialaren logoa linkarekin-->
+        <a title="instagram" href="https://www.instagram.com/"><img src="../Imagenes/instagram.webp" width="30" height="30" alt="instagram"></a> 
+        <a title="twitter" href="https://twitter.com/?lang=es"><img src="../Imagenes/twitter.webp" width="30" height="30" alt="twitter"></a> 
+        <a title="facebook" href="https://es-es.facebook.com/"><img src="../Imagenes/facebook.webp" width="30" height="30" alt="facebook"></a> 
+        <p>pcenpresa@gmail.com</p>
+        <p>Copyright © 2022-2023 @PC eskubideak erreserbatuta</p> 
+    </address>
+</footer>
+</body>
