@@ -12,6 +12,16 @@ principal{
     padding:0%;
 }
 
+.fondopantalla {
+    position:fixed ;
+    right: 0%;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 105%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -10;
+}
+
 /*Header*/
 
 header{
@@ -58,15 +68,13 @@ nav a:hover{
         padding: 10px 0px;
     }
 }
-/* establece el espacio de relleno requerido por todos los lados de un elemento */
+/* elementu baten alde guztiek behar duten betegarria ezartzen du */
 html {
     box-sizing: border-box;
 }
   *, *:before, *:after {
     box-sizing: inherit; /*hartzen du bere elementu aitaren baloreak*/
 }
-
-/* letra mota aldatzen dugu  */
 
 
 /* ul barruan tarteak kentzeko */
@@ -147,7 +155,7 @@ a {
 
 /*Nav amaiera*/
 
-/*Aside*/
+/*ASIDE*/
 aside{
     grid-area:aside;
     box-sizing:border-box;
@@ -186,7 +194,7 @@ aside li{
             
     aside li:hover ul{display:block;}
 
-    /*Section*/
+    /*SECTION*/
 section{
     grid-area:section;
     text-align: center;
@@ -202,7 +210,7 @@ section{
     margin-top:50px
    }
    
-   /*Columnas*/
+   /*ZUTABEA*/
    
    .precio-col {
     display:grid;
@@ -226,7 +234,7 @@ section{
     }
    }
    
-   /*Headers*/
+   /*HEADERS*/
    
    .precio-col-header  {
     background-color:rgb(255, 255, 255);
@@ -254,7 +262,7 @@ section{
     margin-bottom:0
    }
    
-   /*CaracterÃ­sticas*/
+   /*EZAUGARRIAK*/
    
    .precio-col-features {
     padding: 0 20px 20px 20px
@@ -272,7 +280,7 @@ section{
     border-top:none
    }
    
-   /*Comprar*/
+   /*EROSI*/
    
    .precio-col-comprar {
     padding:10px;
